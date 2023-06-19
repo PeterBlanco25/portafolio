@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <div class="navegadorTop">
+        <h1><strong>Proyecto Encriptador</strong></h1>
+        <!--<img src="C:\Users\Usuario\Documents\Oracle_next_education\Encriptador\assets\Alura_logo.png" alt="Logo de Alura" class="logoNav">-->
+    </div>
+
+    <div class = "contenido">
+
+        <textarea placeholder="Ingrese su Texto aqui" id="cajaEntradaUsuario"></textarea>
+        <p><img src="img/Advertencia_logo.png" alt="Logo_Advertencia"> "Solo letras minisculas y sin acentos" </p>
+        <input type="button" class = "botonOscuro" value="Encriptar">
+        <input type="button" class = "botonClaro" value="Desencriptar">
+    </div>
+
+
+    <div class="cajaSalidaTexto">
+        <div id="aside_before">
+            <ul>
+                <li><img src="img/Muñeco.png" alt="Muñeco" class = "Muñeco"></li>
+                <li><p class="parrafo_aside"><strong>Ningún mensaje fue encontrado</strong></p>
+                    
+            </ul>
+        </div>
+    
+        <div id="aside_after" >
+            <ul>
+                <li><textarea placeholder="texto de salida" id="textarea_salida" > </textarea></li>
+                <li><input type="button" class="botonCopiar" value="Copiar" ></li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
